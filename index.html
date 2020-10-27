@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sounds</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Car Sounds!</h1>
+    <h2>Click on corresponding letter to hear the sound!</h2>
+    <div class="cars">
+        <div data-key="67" class="key">
+            <img src="images/corvette.jpg" class="cars__img" alt="Corvette">
+            <kbd>C</kbd>
+            <span class="sound">Corvette</span>
+        </div>
+        <div data-key="70" class="key">
+            <img src="images/fordgt40.jpg" class="cars__img" alt="Ford GT">
+            <kbd>F</kbd>
+            <span class="sound">Ford GT</span>
+        </div>
+        <div data-key="80" class="key">
+            <img src="images/porschegt2.jpg" class="cars__img" alt="Porsche GT2">
+            <kbd>P</kbd>
+            <span class="sound">Porsche GT 2</span>
+        </div>
+        <div data-key="86" class="key">
+            <img src="images/mk4jetta.jpg" class="cars__img" alt="VW MK4 Jetta">
+            <kbd>V</kbd>
+            <span class="sound">VW MK4 Jetta</span>
+        </div>
+    </div>
+
+    <audio data-key="67" src="sounds/corvette.wav"></audio>
+    <audio data-key="70" src="sounds/gt40.wav"></audio>
+    <audio data-key="80" src="sounds/porschegt2.wav"></audio>
+    <audio data-key="86" src="sounds/mk4jettavr6.wav"></audio>
+
+</body>
+</html>
